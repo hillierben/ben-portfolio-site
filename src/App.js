@@ -1,23 +1,13 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Header from './components/Header.js';
+import Projects from './components/Projects';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          I have made a change to this page. And another change that needs to be run built
-        </a>
-      </header>
+    <div>
+      <Header />
+      <Projects/>
     </div>
   );
 }
