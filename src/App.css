@@ -84,6 +84,7 @@ html {
 
 /* ABOUT ME */
 
+
 .aboutBio {
   display: flex;
   position: relative;
@@ -92,9 +93,12 @@ html {
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 60px;
   color: white;
   font-size: 1.7em;
   top: 50px;
+  text-align: center;
+  text-justify: inter-word;
 }
 
 .sectionGrey {
@@ -106,6 +110,13 @@ html {
 .aboutLink {
   text-decoration: none;
   z-index: -1;
+}
+
+@media screen and (max-width: 600px) {
+  .aboutBio {
+    font-size: 1.6em;
+    margin-bottom: 90px;
+  }
 }
 
 /* BIG BUTTON */
@@ -152,6 +163,15 @@ html {
   padding-top: 90px;
 }
 
+@media screen and (max-width: 600px) {
+  .contP {
+    font-size: 1em;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 /* FORM */
 .formLayout {
   display: flex;
@@ -186,6 +206,20 @@ html {
   height: 38.5px;
 }
 
+@media screen and (max-width: 600px) {
+  .formInput {
+    font-size: 1em;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .formTxtArea {
+    font-size: 1em;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
 /* HEADER */
 
@@ -219,6 +253,12 @@ header {
   font-size: 1.7em;
 }
 
+@media screen and (max-width: 600px) {
+  .headerTitle {
+    font-size: 1.2em;
+  }
+}
+
 /* NAVBAR */
 
 
@@ -239,6 +279,12 @@ header {
 
 .navStyle > a:hover {
   color: var(--highlight)
+}
+
+@media screen and (max-width: 600px) {
+  .navStyle > a {
+    font-size: 1em;
+  }
 }
 
 
