@@ -1,0 +1,14 @@
+{
+    "Id": "17135",
+    "Name": "Citrus Coke",
+    "Category": "Soft Drink",
+    "Alcoholic": "Alcoholic",
+    "Glass": "Highball Glass",
+    "Instructions": "Pour half of coke in a glass. Then add Bacardi and top it off with the remaining coke. Stir and drink up!",
+    "Thumbnail": "https://www.thecocktaildb.com/images/media/drink/uyrvut1479473214.jpg",
+    "Date Modified": "2016-11-18 12:46:54",
+    "Ingredients": {
+        "Bacardi Limon": "1 part ",
+        "Coca-Cola": "2 parts "
+    }
+}

@@ -12,9 +12,10 @@ import bfs from '../images/bfs.png'
   
 export default function Projects() {
   return (
-    <div className="max-w-[1200px] mx-auto px-[3%]">
-      <h1 className='mt-2'>Projects</h1>
-      <div >
+    <div className="sectionProj projectPage" id='projects'>
+      <h1 className='projectH1'>Projects</h1>
+      {/* <p className='projectP'>Take a look at some of my projects</p> */}
+      <div className='projectList'>
         <a href='/network'><ProjectCard image={network} title={'Network'} description={'doing and thing with a thing'}/></a>
         <a href='/commerce'><ProjectCard image={commerce} title={'Commerce'} description={'doing and thing with a thing'}/></a>
         <a href='savings'><ProjectCard image={savings} title={'Kids Savings App'} description={'doing and thing with a thing'}/></a>

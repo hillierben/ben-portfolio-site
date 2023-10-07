@@ -1,0 +1,37 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "Name": "Ben",
+      "Email": "ben@email",
+      "Text": "Hello Ben",
+      "id": 2
+    },
+    {
+      "Name": "Bobby",
+      "Email": "bobby@gmail",
+      "Text": "Mr bobby is a. twar",
+      "id": 3
+    },
+    {
+      "Name": "Ben",
+      "Email": "Hifwrfmw@email",
+      "Text": "Blah blah whatsit",
+      "id": 4
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -1,3 +1,13 @@
+:root {
+  --bg-color-drk: #252934;
+  --bg-color-lte: #F5F5F5;
+  --nav-drk: #1b242f;
+  --highlight: #e31b6d;
+  --grHighlight: #04c2c9;
+}
+
+/* ALL */
+
 .App {
   text-align: center;
 }
@@ -38,7 +48,7 @@
 }
 
 body {
-    box-sizing: border-box;
+  box-sizing: border-box;
   /* background-color: var(--color-bg); */
   /* color: var(--color-fg); */
   margin-left: auto;
@@ -49,6 +59,11 @@ h1 {
   font-size: 1.5em;
 }
 
+html {
+  scroll-behavior: smooth;
+  font-family: 'Raleway', sans-serif;
+}
+
 .mainPage {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -57,14 +72,129 @@ h1 {
   background: white;
 }
 
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
 
+.textHighlight {
+  color: var(--highlight)
+}
 
+/* ABOUT ME */
+
+.aboutBio {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  padding: 5%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-size: 1.7em;
+  top: 50px;
+}
+
+.sectionGrey {
+  background: var(--bg-color-drk);
+  height: 100vh;
+  padding-top: 50px;
+}
+
+.aboutLink {
+  text-decoration: none;
+  z-index: -1;
+}
+
+/* BIG BUTTON */
+.bigBtn {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+  align-items: center;
+  padding: 10px 30px;
+  margin-top: 30px;
+  background-color: var(--bg-color-drk);
+  color: white;
+  border: solid white 3px;
+  font-size: 1.2em;
+  transition: all 0.5s;
+}
+
+.bigBtn:hover {
+  background-color: var(--grHighlight);
+  border: var(--grHighlight);
+  cursor: pointer;
+}
+
+/* CONTACT */
+
+.contH1 {
+  color: white;
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 40px;
+}
+
+.contP {
+  color: var(--grHighlight);
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 40px;
+}
+
+.contPage {
+  background: var(--bg-color-drk);
+  height: 100vh;
+  padding-top: 90px;
+}
+
+/* FORM */
+.formLayout {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+  font-family: Raleway, sans-serif;
+}
+
+.formInput {
+  height: 38.5px;
+  font-family: Raleway, sans-serif;
+  background: var(--nav-drk);
+  border: solid 2px var(--bg-color-drk);
+  font-size: 1.3em;
+  padding: 10px;
+  color: white;
+}
+
+.formTxtArea {
+  height: 150px;
+  font-family: Raleway, sans-serif;
+  background: var(--nav-drk);
+  border: solid 2px var(--bg-color-drk);
+  font-size: 1.3em;
+  padding: 10px;
+  color: white;
+}
+
+.formSubmit {
+  height: 38.5px;
+}
 
 
 /* HEADER */
 
 header {
   color: white;
+  position: fixed;
+  width: 100vw;
+  z-index: 1000;
+  border-bottom: 3px solid #04c2c9;
 }
 
 .headerStyle {
@@ -76,7 +206,7 @@ header {
   padding-left: 3%;
   padding-right: 3%;
   margin: 0 auto 0 auto;
-  background: #23252F;
+  background: var(--nav-drk);
   color: #ffffff;
 }
 
@@ -85,18 +215,109 @@ header {
   color: white;
 }
 
+.headerTitle {
+  font-size: 1.7em;
+}
 
 /* NAVBAR */
+
 
 .navStyle {
     display: flex;
     flex-direction: row;
     gap: 20px;
-    background: #23252F;
+    background: var(--nav-drk);
+    
 }
 
 .navStyle > a {
   color: white;
   text-decoration: none;
   list-style: none;
+  font-size: 1.3em;
+}
+
+.navStyle > a:hover {
+  color: var(--highlight)
+}
+
+
+/* PROJECTS */
+
+.projectH1 {
+  margin-top: 0px;
+  margin-bottom: 40px;
+  padding: 10px;
+  text-align: center;
+  font-size: 3em;
+}
+
+.projectList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.projectP {
+  color: var(--highlight);
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 40px;
+}
+
+.projectPage {
+  /* max-width: 1200px; */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 90px;
+}
+
+.sectionProj {
+  background: var(--bg-color-lte);
+  min-height: 100vh;
+}
+
+
+/* PROJECTCARD */
+
+.projCard {
+  box-shadow: 1px 1px 3px rgba(254, 254, 254, 0.647);
+  position: relative;
+  border-radius: 3px;
+  /* max-width: 350px; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.projImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* align-self: left; */
+  border-radius: 3px;
+}
+
+.projTitle {
+  background: #23252f;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  /* display: none; */
+  transition: .4s ease;
+}
+
+.projTitle:hover {
+  /* display: block !important; */
+  height: 100%;
+}
+
+.projImg:hover + .projTitle {
+  /* display: block !important; */
+  height: 100%;
 }
