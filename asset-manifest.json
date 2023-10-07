@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ben-portfolio-site/static/css/main.e50877e9.css",
-    "main.js": "/ben-portfolio-site/static/js/main.6c7dd332.js",
+    "main.css": "/ben-portfolio-site/static/css/main.34c8054b.css",
+    "main.js": "/ben-portfolio-site/static/js/main.c1469df7.js",
     "static/js/787.cecc6b47.chunk.js": "/ben-portfolio-site/static/js/787.cecc6b47.chunk.js",
     "static/media/drums.png": "/ben-portfolio-site/static/media/drums.fb0702e30019ef9c66fe.png",
     "static/media/spelling1.png": "/ben-portfolio-site/static/media/spelling1.b7ef9bd006f96e202837.png",
@@ -11,12 +11,12 @@
     "static/media/bfs.png": "/ben-portfolio-site/static/media/bfs.725d492f2b5be28335b5.png",
     "static/media/wiki1.png": "/ben-portfolio-site/static/media/wiki1.c73c84970a3a979da51c.png",
     "index.html": "/ben-portfolio-site/index.html",
-    "main.e50877e9.css.map": "/ben-portfolio-site/static/css/main.e50877e9.css.map",
-    "main.6c7dd332.js.map": "/ben-portfolio-site/static/js/main.6c7dd332.js.map",
+    "main.34c8054b.css.map": "/ben-portfolio-site/static/css/main.34c8054b.css.map",
+    "main.c1469df7.js.map": "/ben-portfolio-site/static/js/main.c1469df7.js.map",
     "787.cecc6b47.chunk.js.map": "/ben-portfolio-site/static/js/787.cecc6b47.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e50877e9.css",
-    "static/js/main.6c7dd332.js"
+    "static/css/main.34c8054b.css",
+    "static/js/main.c1469df7.js"
   ]
 }
