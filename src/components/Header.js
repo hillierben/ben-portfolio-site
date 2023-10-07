@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <header>
       <div className='headerStyle'>
-          <a href='/'><h1 className='headerTitle'>Ben Hillier</h1></a>
+          <a href='#about'><h1 className='headerTitle'>Ben Hillier</h1></a>
         <Navbar/>
       </div>
     </header>
