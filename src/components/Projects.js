@@ -17,10 +17,10 @@ export default function Projects() {
       {/* <p className='projectP'>Take a look at some of my projects</p> */}
       <div className='projectList'>
         <a href='https://github.com/hillierben/network' target='_blank' rel='noreferrer'><ProjectCard image={network} title={'Network'} description={'Social Media Network'}/></a>
-        <a href='https://github.com/me50/hillierben/tree/web50/projects/2020/x/commerce' target='_blank' rel='noreferrer'><ProjectCard image={commerce} title={'Commerce'} description={'Ebay style e-commerce site'}/></a>
+        <a href='https://github.com/hillierben/e-commerce' target='_blank' rel='noreferrer'><ProjectCard image={commerce} title={'Commerce'} description={'Ebay style e-commerce site'}/></a>
         <a href='https://github.com/hillierben/kids-saving-app-2' target='_blank' rel='noreferrer'><ProjectCard image={savings} title={'Kids Savings App'} description={'Savings app for kids to complete tasks and earn pocket money'}/></a>
         <a href='https://github.com/hillierben/spelling-sloth' target='_blank' rel='noreferrer'><ProjectCard image={spelling} title={'Spelling Sloth'} description={'Maths and English educational site for kids'}/></a>
-        <a href='https://github.com/me50/hillierben/tree/web50/projects/2020/x/wiki' target='_blank' rel='noreferrer'><ProjectCard image={wiki} title={'Wiki'} description={'Wikipedia style information app'}/></a>
+        <a href='https://github.com/hillierben/wiki-style' target='_blank' rel='noreferrer'><ProjectCard image={wiki} title={'Wiki'} description={'Wikipedia style information app'}/></a>
         <a href='https://github.com/hillierben/js-drum-kit' target='_blank' rel='noreferrer'><ProjectCard image={drums} title={'Drum Kit'} description={'Playable browser-based drum kit'}/></a>
         <a href='https://github.com/hillierben/degrees' target='_blank' rel='noreferrer'><ProjectCard image={bfs} title={'Breadth First Search'} description={'Search alorithm for finding fastest route between two points'}/></a>
       </div>
